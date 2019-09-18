@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.octoPic {
+    padding: 10px;
+    margin: 10px;
+    border: 3px dashed #239754;
+}
+
+h1 {
+    color: #202020;
+    text-transform: uppercase;
+    border: 2px solid #101010;
+}
+
+h2 {
+    color: #231495;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 17px;
+    text-decoration: line-through;
+}
+
+#intro {
+    background-color: rgba(43, 233, 122, .3);
+}
+
+#content {
+    color: #549987;
+    background-color: #294864;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #985252;
+}
