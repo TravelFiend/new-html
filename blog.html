@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Octopi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="app.js"></script>
 </head>
 <body>
     <header>
         <h1>Octopi</h1>
         <img class="octoPic" src="https://cdn.news.uchicago.edu/sites/default/files/styles/full_width/public/images/2018-09/istock-495907882.jpg?itok=AnwKg1sp"
             alt="Pic of an octopus" width="600" height="300">
-        <link rel="stylesheet" href="css/styles.css">
     </header>
     <main>
         <article>
@@ -45,12 +46,16 @@
                         <a href="https://www.yeticycles.com/bikes" target="_blank">Mountain bikes for sale</a>
                 </aside>
             </section>
-
             
         </article>
     </main>
     <footer>
         <p>&copy; Grizzle Industries. Phone: 440-829-5501</p>
     </footer>
+    <button onclick="showAlert()">Click me!</button>
+    <br>
+    <label for="">
+        Search: <input oninput="logHello()">
+    </label>
 </body>
 </html>
